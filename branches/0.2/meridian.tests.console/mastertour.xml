@@ -1,0 +1,4143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimpleOperationContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <m_Protos>
+    <ProtoDescription>
+      <Name>Rooms</Name>
+      <Backend>Rooms</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>RM_KEY</Name>
+          <Backend>RM_KEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RM_CREATOR</Name>
+          <Backend>RM_CREATOR</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RM_NAME</Name>
+          <Backend>RM_NAME</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RM_UPDATEDATE</Name>
+          <Backend>RM_UPDATEDATE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RM_CINNUM</Name>
+          <Backend>RM_CINNUM</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RM_ORDER</Name>
+          <Backend>RM_ORDER</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RM_NAMELAT</Name>
+          <Backend>RM_NAMELAT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RM_CODE</Name>
+          <Backend>RM_CODE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RM_Unicode</Name>
+          <Backend>RM_Unicode</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RM_StdKey</Name>
+          <Backend>RM_StdKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RM_Description</Name>
+          <Backend>RM_Description</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RM_NPLACES</Name>
+          <Backend>RM_NPLACES</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RM_NPlacesEx</Name>
+          <Backend>RM_NPlacesEx</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>RM_KEY</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>RoomPlaces</Name>
+      <Backend>RoomPlaces</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>RP_RLID</Name>
+          <Backend>RP_RLID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RP_ID</Name>
+          <Backend>RP_ID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RP_Type</Name>
+          <Backend>RP_Type</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RP_LAPID</Name>
+          <Backend>RP_LAPID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>RP_ID</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>RoomsCategory</Name>
+      <Backend>RoomsCategory</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>RC_KEY</Name>
+          <Backend>RC_KEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RC_CREATOR</Name>
+          <Backend>RC_CREATOR</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RC_UPDATEDATE</Name>
+          <Backend>RC_UPDATEDATE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RC_CINNUM</Name>
+          <Backend>RC_CINNUM</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RC_ORDER</Name>
+          <Backend>RC_ORDER</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RC_Unicode</Name>
+          <Backend>RC_Unicode</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RC_CODE</Name>
+          <Backend>RC_CODE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RC_NAME</Name>
+          <Backend>RC_NAME</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RC_NAMELAT</Name>
+          <Backend>RC_NAMELAT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RC_StdKey</Name>
+          <Backend>RC_StdKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>RC_Description</Name>
+          <Backend>RC_Description</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>RC_KEY</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>HotelDictionary</Name>
+      <Backend>HotelDictionary</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>HD_IsCruise</Name>
+          <Backend>HD_IsCruise</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_CNKEY</Name>
+          <Backend>HD_CNKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_CTKEY</Name>
+          <Backend>HD_CTKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_KEY</Name>
+          <Backend>HD_KEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_NAME</Name>
+          <Backend>HD_NAME</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_STARS</Name>
+          <Backend>HD_STARS</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_UPDATEDATE</Name>
+          <Backend>HD_UPDATEDATE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_COHId</Name>
+          <Backend>HD_COHId</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_RSKEY</Name>
+          <Backend>HD_RSKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_WEB</Name>
+          <Backend>HD_WEB</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_Order</Name>
+          <Backend>HD_Order</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>hd_rank</Name>
+          <Backend>hd_rank</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_ADDRESS</Name>
+          <Backend>HD_ADDRESS</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_PHONE</Name>
+          <Backend>HD_PHONE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_FAX</Name>
+          <Backend>HD_FAX</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_PERSONNAME</Name>
+          <Backend>HD_PERSONNAME</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_PERSONAPP</Name>
+          <Backend>HD_PERSONAPP</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_CODE</Name>
+          <Backend>HD_CODE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_WEBIMAGE</Name>
+          <Backend>HD_WEBIMAGE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_WEBIMAGE1</Name>
+          <Backend>HD_WEBIMAGE1</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_WEBIMAGE2</Name>
+          <Backend>HD_WEBIMAGE2</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_WEBIMAGE3</Name>
+          <Backend>HD_WEBIMAGE3</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_WEBIMAGE4</Name>
+          <Backend>HD_WEBIMAGE4</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_WEBIMAGE5</Name>
+          <Backend>HD_WEBIMAGE5</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_WEBIMAGE6</Name>
+          <Backend>HD_WEBIMAGE6</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_WEBIMAGE7</Name>
+          <Backend>HD_WEBIMAGE7</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_WEBIMAGE8</Name>
+          <Backend>HD_WEBIMAGE8</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_REMARK</Name>
+          <Backend>HD_REMARK</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_REMARK1</Name>
+          <Backend>HD_REMARK1</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_REMARK2</Name>
+          <Backend>HD_REMARK2</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_REMARK3</Name>
+          <Backend>HD_REMARK3</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_REMARK4</Name>
+          <Backend>HD_REMARK4</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_REMARK5</Name>
+          <Backend>HD_REMARK5</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_REMARK6</Name>
+          <Backend>HD_REMARK6</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_REMARK7</Name>
+          <Backend>HD_REMARK7</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_REMARK8</Name>
+          <Backend>HD_REMARK8</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_NAMELAT</Name>
+          <Backend>HD_NAMELAT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_EMAIL</Name>
+          <Backend>HD_EMAIL</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_HTTP</Name>
+          <Backend>HD_HTTP</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_UNICODE</Name>
+          <Backend>HD_UNICODE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_Travel</Name>
+          <Backend>HD_Travel</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_PayHour1</Name>
+          <Backend>HD_PayHour1</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_PayHour2</Name>
+          <Backend>HD_PayHour2</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_StdKey</Name>
+          <Backend>HD_StdKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_HTTPAdditional</Name>
+          <Backend>HD_HTTPAdditional</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_DISTANCE</Name>
+          <Backend>HD_DISTANCE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftFloat</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_DESCRIPT</Name>
+          <Backend>HD_DESCRIPT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_DESCROOM</Name>
+          <Backend>HD_DESCROOM</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_DESCMEAL</Name>
+          <Backend>HD_DESCMEAL</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_DESCSERVICE</Name>
+          <Backend>HD_DESCSERVICE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_DESCSPORT</Name>
+          <Backend>HD_DESCSPORT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_DESCEXCUR</Name>
+          <Backend>HD_DESCEXCUR</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_DESCHEALTH</Name>
+          <Backend>HD_DESCHEALTH</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_DESCRAZVL</Name>
+          <Backend>HD_DESCRAZVL</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_PayHourNote</Name>
+          <Backend>HD_PayHourNote</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HD_SITE</Name>
+          <Backend>HD_SITE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>HD_KEY</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>tbl_Country</Name>
+      <Backend>tbl_Country</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>CN_KEY</Name>
+          <Backend>CN_KEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CN_PassportMinDurCheckFrom</Name>
+          <Backend>CN_PassportMinDurCheckFrom</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CN_NAME</Name>
+          <Backend>CN_NAME</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CN_CheckINN</Name>
+          <Backend>CN_CheckINN</Backend>
+          <Type>Field</Type>
+          <FieldType>ftBool</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CN_AnkLang</Name>
+          <Backend>CN_AnkLang</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CN_FRAME</Name>
+          <Backend>CN_FRAME</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CN_WEB</Name>
+          <Backend>CN_WEB</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CN_COKey</Name>
+          <Backend>CN_COKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CN_Order</Name>
+          <Backend>CN_Order</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CN_PassportMinDur</Name>
+          <Backend>CN_PassportMinDur</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CN_RateKey</Name>
+          <Backend>CN_RateKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CN_NAMELAT</Name>
+          <Backend>CN_NAMELAT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CN_NameAC</Name>
+          <Backend>CN_NameAC</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CN_CitizenName</Name>
+          <Backend>CN_CitizenName</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CN_CitizenNameLat</Name>
+          <Backend>CN_CitizenNameLat</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CN_INNName</Name>
+          <Backend>CN_INNName</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CN_WEBIMAGE</Name>
+          <Backend>CN_WEBIMAGE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CN_WEBHTTP</Name>
+          <Backend>CN_WEBHTTP</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CN_CODE</Name>
+          <Backend>CN_CODE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CN_StdKey</Name>
+          <Backend>CN_StdKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CN_Updatedate</Name>
+          <Backend>CN_Updatedate</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CN_SMALLDESC</Name>
+          <Backend>CN_SMALLDESC</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>CN_KEY</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>CityDictionary</Name>
+      <Backend>CityDictionary</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>CT_CREATOR</Name>
+          <Backend>CT_CREATOR</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CT_CNKEY</Name>
+          <Backend>CT_CNKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CT_KEY</Name>
+          <Backend>CT_KEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CT_NAME</Name>
+          <Backend>CT_NAME</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CT_Web</Name>
+          <Backend>CT_Web</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CT_RSKey</Name>
+          <Backend>CT_RSKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CT_Order</Name>
+          <Backend>CT_Order</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CT_NAMELAT</Name>
+          <Backend>CT_NAMELAT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CT_CODE</Name>
+          <Backend>CT_CODE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CT_NameAC</Name>
+          <Backend>CT_NameAC</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CT_Coordinate</Name>
+          <Backend>CT_Coordinate</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CT_WEBIMAGE</Name>
+          <Backend>CT_WEBIMAGE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CT_StdKey</Name>
+          <Backend>CT_StdKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CT_UPDATEDATE</Name>
+          <Backend>CT_UPDATEDATE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CT_IsDeparture</Name>
+          <Backend>CT_IsDeparture</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>CT_KEY</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>HotelOption</Name>
+      <Backend>HotelOption</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>HO_ID</Name>
+          <Backend>HO_ID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HO_HTKEY</Name>
+          <Backend>HO_HTKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HO_KEY</Name>
+          <Backend>HO_KEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HO_NAMEBMP</Name>
+          <Backend>HO_NAMEBMP</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HO_Description</Name>
+          <Backend>HO_Description</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>HO_ID</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>HotelRooms</Name>
+      <Backend>HotelRooms</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>HR_KEY</Name>
+          <Backend>HR_KEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HR_RMKEY</Name>
+          <Backend>HR_RMKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HR_RCKEY</Name>
+          <Backend>HR_RCKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HR_MAIN</Name>
+          <Backend>HR_MAIN</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HR_ACKEY</Name>
+          <Backend>HR_ACKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HR_CINNUM</Name>
+          <Backend>HR_CINNUM</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HR_Unicode</Name>
+          <Backend>HR_Unicode</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HR_StdKey</Name>
+          <Backend>HR_StdKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HR_AGEFROM</Name>
+          <Backend>HR_AGEFROM</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HR_AGETO</Name>
+          <Backend>HR_AGETO</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HR_DoNotGetILCosts</Name>
+          <Backend>HR_DoNotGetILCosts</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>HR_KEY</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>Quotas</Name>
+      <Backend>Quotas</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>QT_ByRoom</Name>
+          <Backend>QT_ByRoom</Backend>
+          <Type>Field</Type>
+          <FieldType>ftBool</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QT_IsByCheckIn</Name>
+          <Backend>QT_IsByCheckIn</Backend>
+          <Type>Field</Type>
+          <FieldType>ftBool</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QT_ID</Name>
+          <Backend>QT_ID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QT_Comment</Name>
+          <Backend>QT_Comment</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QT_PRKey</Name>
+          <Backend>QT_PRKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QT_PrtDogsKey</Name>
+          <Backend>QT_PrtDogsKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>QT_ID</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>QuotaDetails</Name>
+      <Backend>QuotaDetails</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>QD_ID</Name>
+          <Backend>QD_ID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QD_QTID</Name>
+          <Backend>QD_QTID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QD_Date</Name>
+          <Backend>QD_Date</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QD_Type</Name>
+          <Backend>QD_Type</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QD_Busy</Name>
+          <Backend>QD_Busy</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QD_Comment</Name>
+          <Backend>QD_Comment</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QD_QTKEYOLD</Name>
+          <Backend>QD_QTKEYOLD</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QD_CreatorKey</Name>
+          <Backend>QD_CreatorKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QD_CreateDate</Name>
+          <Backend>QD_CreateDate</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QD_Release</Name>
+          <Backend>QD_Release</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QD_IsDeleted</Name>
+          <Backend>QD_IsDeleted</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QD_LongMin</Name>
+          <Backend>QD_LongMin</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QD_LongMax</Name>
+          <Backend>QD_LongMax</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QD_Places</Name>
+          <Backend>QD_Places</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>QD_ID</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>QuotaParts</Name>
+      <Backend>QuotaParts</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>QP_Limit</Name>
+          <Backend>QP_Limit</Backend>
+          <Type>Field</Type>
+          <FieldType>ftBool</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QP_IsNotCheckIn</Name>
+          <Backend>QP_IsNotCheckIn</Backend>
+          <Type>Field</Type>
+          <FieldType>ftBool</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QP_ID</Name>
+          <Backend>QP_ID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QP_QDID</Name>
+          <Backend>QP_QDID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QP_CreateDate</Name>
+          <Backend>QP_CreateDate</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QP_Places</Name>
+          <Backend>QP_Places</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QP_Busy</Name>
+          <Backend>QP_Busy</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QP_LastUpdate</Name>
+          <Backend>QP_LastUpdate</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QP_Durations</Name>
+          <Backend>QP_Durations</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QP_Comment</Name>
+          <Backend>QP_Comment</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QP_CreatorKey</Name>
+          <Backend>QP_CreatorKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QP_QTKEYOLD</Name>
+          <Backend>QP_QTKEYOLD</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QP_Long</Name>
+          <Backend>QP_Long</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QP_FilialKey</Name>
+          <Backend>QP_FilialKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QP_AgentKey</Name>
+          <Backend>QP_AgentKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QP_CityDepartments</Name>
+          <Backend>QP_CityDepartments</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QP_Date</Name>
+          <Backend>QP_Date</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QP_IsDeleted</Name>
+          <Backend>QP_IsDeleted</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QP_CheckInPlaces</Name>
+          <Backend>QP_CheckInPlaces</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QP_CheckInPlacesBusy</Name>
+          <Backend>QP_CheckInPlacesBusy</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>QP_ID</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>QuotaObjects</Name>
+      <Backend>QuotaObjects</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>QO_ID</Name>
+          <Backend>QO_ID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QO_SVKey</Name>
+          <Backend>QO_SVKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QO_Code</Name>
+          <Backend>QO_Code</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QO_SubCode1</Name>
+          <Backend>QO_SubCode1</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QO_SubCode2</Name>
+          <Backend>QO_SubCode2</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QO_QTID</Name>
+          <Backend>QO_QTID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QO_CNKey</Name>
+          <Backend>QO_CNKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>QO_CTKey</Name>
+          <Backend>QO_CTKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>QO_ID</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>StopSales</Name>
+      <Backend>StopSales</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>SS_ID</Name>
+          <Backend>SS_ID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>SS_QDID</Name>
+          <Backend>SS_QDID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>SS_QOID</Name>
+          <Backend>SS_QOID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>SS_PRKey</Name>
+          <Backend>SS_PRKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>SS_CreatorKey</Name>
+          <Backend>SS_CreatorKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>SS_Comment</Name>
+          <Backend>SS_Comment</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>SS_Date</Name>
+          <Backend>SS_Date</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>SS_AllotmentAndCommitment</Name>
+          <Backend>SS_AllotmentAndCommitment</Backend>
+          <Type>Field</Type>
+          <FieldType>ftBool</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>SS_LastUpdate</Name>
+          <Backend>SS_LastUpdate</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>SS_CreateDate</Name>
+          <Backend>SS_CreateDate</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>SS_IsDeleted</Name>
+          <Backend>SS_IsDeleted</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>SS_ID</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>Dogovor</Name>
+      <Backend>Dogovor</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>DG_CNKEY</Name>
+          <Backend>DG_CNKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_CTKEY</Name>
+          <Backend>DG_CTKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_CREATOR</Name>
+          <Backend>DG_CREATOR</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_OWNER</Name>
+          <Backend>DG_OWNER</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_SOR_CODE</Name>
+          <Backend>DG_SOR_CODE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_PRTDOGKEY</Name>
+          <Backend>DG_PRTDOGKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_LEADDEPARTMENT</Name>
+          <Backend>DG_LEADDEPARTMENT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_Key</Name>
+          <Backend>DG_Key</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_FilialKey</Name>
+          <Backend>DG_FilialKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_IsOutDoc</Name>
+          <Backend>DG_IsOutDoc</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_CODE</Name>
+          <Backend>DG_CODE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_DISCOUNTSUM</Name>
+          <Backend>DG_DISCOUNTSUM</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDecimal</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_PRICE</Name>
+          <Backend>DG_PRICE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDecimal</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_NDAY</Name>
+          <Backend>DG_NDAY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftFloat</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_TURDATE</Name>
+          <Backend>DG_TURDATE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_CRDATE</Name>
+          <Backend>DG_CRDATE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_PDTType</Name>
+          <Backend>DG_PDTType</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_AgentID</Name>
+          <Backend>DG_AgentID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_PROCENT</Name>
+          <Backend>DG_PROCENT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_ARKey</Name>
+          <Backend>DG_ARKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_CurrencyKey</Name>
+          <Backend>DG_CurrencyKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_CAUSEDISC</Name>
+          <Backend>DG_CAUSEDISC</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_DUPUSERKEY</Name>
+          <Backend>DG_DUPUSERKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_BTKEY</Name>
+          <Backend>DG_BTKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_CTDepartureKey</Name>
+          <Backend>DG_CTDepartureKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_DCRCLIENT</Name>
+          <Backend>DG_DCRCLIENT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_DCRPAYMENT</Name>
+          <Backend>DG_DCRPAYMENT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_ISMAKEDISCOUNT</Name>
+          <Backend>DG_ISMAKEDISCOUNT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_PARTNERKEY</Name>
+          <Backend>DG_PARTNERKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_ADVERTISE</Name>
+          <Backend>DG_ADVERTISE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_TRKEY</Name>
+          <Backend>DG_TRKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_DAKey</Name>
+          <Backend>DG_DAKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_RATE</Name>
+          <Backend>DG_RATE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_OPERATOR</Name>
+          <Backend>DG_OPERATOR</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_MAINMEN</Name>
+          <Backend>DG_MAINMEN</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_MAINMENPHONE</Name>
+          <Backend>DG_MAINMENPHONE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_MAINMENADRESS</Name>
+          <Backend>DG_MAINMENADRESS</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_MAINMENPASPORT</Name>
+          <Backend>DG_MAINMENPASPORT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_CodePartner</Name>
+          <Backend>DG_CodePartner</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_NOTES</Name>
+          <Backend>DG_NOTES</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_INVOICECOST</Name>
+          <Backend>DG_INVOICECOST</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_DOCUMENT</Name>
+          <Backend>DG_DOCUMENT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_TURPUTPLACE</Name>
+          <Backend>DG_TURPUTPLACE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_MAINMENEMAIL</Name>
+          <Backend>DG_MAINMENEMAIL</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_MAINMENCOMMENT</Name>
+          <Backend>DG_MAINMENCOMMENT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_PAYED</Name>
+          <Backend>DG_PAYED</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDecimal</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_DISCOUNT</Name>
+          <Backend>DG_DISCOUNT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDecimal</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_DISCSUMBFRANN</Name>
+          <Backend>DG_DISCSUMBFRANN</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDecimal</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_PRICEBFRANN</Name>
+          <Backend>DG_PRICEBFRANN</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDecimal</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_RazmerP</Name>
+          <Backend>DG_RazmerP</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDecimal</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_SalePrice</Name>
+          <Backend>DG_SalePrice</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDecimal</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_SaleDiscount</Name>
+          <Backend>DG_SaleDiscount</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDecimal</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_NATIONALCURRENCYPAYED</Name>
+          <Backend>DG_NATIONALCURRENCYPAYED</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDecimal</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_NATIONALCURRENCYPRICE</Name>
+          <Backend>DG_NATIONALCURRENCYPRICE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDecimal</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_NATIONALCURRENCYDISCOUNTSUM</Name>
+          <Backend>DG_NATIONALCURRENCYDISCOUNTSUM</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDecimal</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_CurrencyRate</Name>
+          <Backend>DG_CurrencyRate</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDecimal</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_ConfirmedDate</Name>
+          <Backend>DG_ConfirmedDate</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>ROWID</Name>
+          <Backend>ROWID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftTimeStamp</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_VISADATE</Name>
+          <Backend>DG_VISADATE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_PPAYMENTDATE</Name>
+          <Backend>DG_PPAYMENTDATE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_PAYMENTDATE</Name>
+          <Backend>DG_PAYMENTDATE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_TURPUTDATE</Name>
+          <Backend>DG_TURPUTDATE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_OLDTOURDATE</Name>
+          <Backend>DG_OLDTOURDATE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_TurDateBfrAnnul</Name>
+          <Backend>DG_TurDateBfrAnnul</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_LOCKED</Name>
+          <Backend>DG_LOCKED</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_TRANSFERRED</Name>
+          <Backend>DG_TRANSFERRED</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_NMEN</Name>
+          <Backend>DG_NMEN</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_PRINTDOGOVOR</Name>
+          <Backend>DG_PRINTDOGOVOR</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_PRINTVAUCHER</Name>
+          <Backend>DG_PRINTVAUCHER</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_TYPECOUNT</Name>
+          <Backend>DG_TYPECOUNT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DG_ProTourFlag</Name>
+          <Backend>DG_ProTourFlag</Backend>
+          <Type>Field</Type>
+          <FieldType>ftByte</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>DG_Key</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>Turist</Name>
+      <Backend>Turist</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>TU_CREATOR</Name>
+          <Backend>TU_CREATOR</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_OWNER</Name>
+          <Backend>TU_OWNER</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_KEY</Name>
+          <Backend>TU_KEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_SHORTNAME</Name>
+          <Backend>TU_SHORTNAME</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_DGCOD</Name>
+          <Backend>TU_DGCOD</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_FNAMERUS</Name>
+          <Backend>TU_FNAMERUS</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_FNAMELAT</Name>
+          <Backend>TU_FNAMELAT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_InsuredEvent</Name>
+          <Backend>TU_InsuredEvent</Backend>
+          <Type>Field</Type>
+          <FieldType>ftBool</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_EnableSmsNotifications</Name>
+          <Backend>TU_EnableSmsNotifications</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_AgentID</Name>
+          <Backend>TU_AgentID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_DGKEY</Name>
+          <Backend>TU_DGKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_ID</Name>
+          <Backend>TU_ID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_SNAMERUS</Name>
+          <Backend>TU_SNAMERUS</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_SNAMELAT</Name>
+          <Backend>TU_SNAMELAT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_NAMERUS</Name>
+          <Backend>TU_NAMERUS</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_NAMELAT</Name>
+          <Backend>TU_NAMELAT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_EMAIL</Name>
+          <Backend>TU_EMAIL</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_PASPRUBYWHOM</Name>
+          <Backend>TU_PASPRUBYWHOM</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_INSURPOLIS</Name>
+          <Backend>TU_INSURPOLIS</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_PASPRUSER</Name>
+          <Backend>TU_PASPRUSER</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_PASPRUNUM</Name>
+          <Backend>TU_PASPRUNUM</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_BIRTHCOUNTRY</Name>
+          <Backend>TU_BIRTHCOUNTRY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_BIRTHCITY</Name>
+          <Backend>TU_BIRTHCITY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_CITIZEN</Name>
+          <Backend>TU_CITIZEN</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_POSTINDEX</Name>
+          <Backend>TU_POSTINDEX</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_POSTCITY</Name>
+          <Backend>TU_POSTCITY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_POSTSTREET</Name>
+          <Backend>TU_POSTSTREET</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_POSTBILD</Name>
+          <Backend>TU_POSTBILD</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_POSTFLAT</Name>
+          <Backend>TU_POSTFLAT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_PHONE</Name>
+          <Backend>TU_PHONE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_PHONECODE</Name>
+          <Backend>TU_PHONECODE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_PASPORTTYPE</Name>
+          <Backend>TU_PASPORTTYPE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_PASPORTNUM</Name>
+          <Backend>TU_PASPORTNUM</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_PASPORTBYWHOM</Name>
+          <Backend>TU_PASPORTBYWHOM</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>ROWID</Name>
+          <Backend>ROWID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftTimeStamp</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_INSURSUM</Name>
+          <Backend>TU_INSURSUM</Backend>
+          <Type>Field</Type>
+          <FieldType>ftFloat</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_DISCOUNT</Name>
+          <Backend>TU_DISCOUNT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftFloat</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_TYPEDISCOUNT</Name>
+          <Backend>TU_TYPEDISCOUNT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftFloat</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_PASPORTDATE</Name>
+          <Backend>TU_PASPORTDATE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_PASPORTDATEEND</Name>
+          <Backend>TU_PASPORTDATEEND</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_BIRTHDAY</Name>
+          <Backend>TU_BIRTHDAY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_PASPRUDATE</Name>
+          <Backend>TU_PASPRUDATE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_TURDATE</Name>
+          <Backend>TU_TURDATE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_SEX</Name>
+          <Backend>TU_SEX</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_PLACE</Name>
+          <Backend>TU_PLACE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_ISANKETA</Name>
+          <Backend>TU_ISANKETA</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_ISMAIN</Name>
+          <Backend>TU_ISMAIN</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_RealSex</Name>
+          <Backend>TU_RealSex</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>TU_KEY</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>TuristService</Name>
+      <Backend>TuristService</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>ROWID</Name>
+          <Backend>ROWID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftTimeStamp</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_IDKEY</Name>
+          <Backend>TU_IDKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_TUKEY</Name>
+          <Backend>TU_TUKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_DLKEY</Name>
+          <Backend>TU_DLKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_SEAT</Name>
+          <Backend>TU_SEAT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_NUMDOC</Name>
+          <Backend>TU_NUMDOC</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_DOCDATE</Name>
+          <Backend>TU_DOCDATE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_NUMROOM</Name>
+          <Backend>TU_NUMROOM</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>TU_AREA</Name>
+          <Backend>TU_AREA</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>TU_TUKEY</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>Dogovorlist</Name>
+      <Backend>Dogovorlist</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>DL_CREATOR</Name>
+          <Backend>DL_CREATOR</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_OWNER</Name>
+          <Backend>DL_OWNER</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_CODE</Name>
+          <Backend>DL_CODE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_TRKEY</Name>
+          <Backend>DL_TRKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_SVKEY</Name>
+          <Backend>DL_SVKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_KEY</Name>
+          <Backend>DL_KEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_TRFId</Name>
+          <Backend>DL_TRFId</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_DGCOD</Name>
+          <Backend>DL_DGCOD</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_CreateDate</Name>
+          <Backend>DL_CreateDate</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_Long</Name>
+          <Backend>DL_Long</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_NMEN</Name>
+          <Backend>DL_NMEN</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_PROVIDERSTATUSEKEY</Name>
+          <Backend>DL_PROVIDERSTATUSEKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_PRTDOGKEY</Name>
+          <Backend>DL_PRTDOGKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_TAXZONEID</Name>
+          <Backend>DL_TAXZONEID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_QUOTEKEY</Name>
+          <Backend>DL_QUOTEKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_AGENT</Name>
+          <Backend>DL_AGENT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_AgentID</Name>
+          <Backend>DL_AgentID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_Reserved</Name>
+          <Backend>DL_Reserved</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_DGKEY</Name>
+          <Backend>DL_DGKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_PAKETKEY</Name>
+          <Backend>DL_PAKETKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_SUBCODE1</Name>
+          <Backend>DL_SUBCODE1</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_SUBCODE2</Name>
+          <Backend>DL_SUBCODE2</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_WARNING</Name>
+          <Backend>DL_WARNING</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_CONTROL</Name>
+          <Backend>DL_CONTROL</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_ATTRIBUTE</Name>
+          <Backend>DL_ATTRIBUTE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_CNKEY</Name>
+          <Backend>DL_CNKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_CTKEY</Name>
+          <Backend>DL_CTKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_PARTNERKEY</Name>
+          <Backend>DL_PARTNERKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_NAME</Name>
+          <Backend>DL_NAME</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_RejectComment</Name>
+          <Backend>DL_RejectComment</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_FormulaDiscount</Name>
+          <Backend>DL_FormulaDiscount</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_NameLat</Name>
+          <Backend>DL_NameLat</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_FORMULANETTO</Name>
+          <Backend>DL_FORMULANETTO</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_FORMULABRUTTO</Name>
+          <Backend>DL_FORMULABRUTTO</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_Comment</Name>
+          <Backend>DL_Comment</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_SalePrice</Name>
+          <Backend>DL_SalePrice</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDecimal</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_SaleDiscount</Name>
+          <Backend>DL_SaleDiscount</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDecimal</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_DISCOUNT</Name>
+          <Backend>DL_DISCOUNT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDecimal</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_COST</Name>
+          <Backend>DL_COST</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDecimal</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_REALNETTO</Name>
+          <Backend>DL_REALNETTO</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDecimal</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_BRUTTO</Name>
+          <Backend>DL_BRUTTO</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDecimal</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_PAYED</Name>
+          <Backend>DL_PAYED</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDecimal</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>ROWID</Name>
+          <Backend>ROWID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftTimeStamp</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_DOGCODEPARTNER</Name>
+          <Backend>DL_DOGCODEPARTNER</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_TIMEBEG</Name>
+          <Backend>DL_TIMEBEG</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_DATEBEG</Name>
+          <Backend>DL_DATEBEG</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_DATEEND</Name>
+          <Backend>DL_DATEEND</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_TURDATE</Name>
+          <Backend>DL_TURDATE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_CalculatePriceDate</Name>
+          <Backend>DL_CalculatePriceDate</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_ISSENDPARTNER</Name>
+          <Backend>DL_ISSENDPARTNER</Backend>
+          <Type>Field</Type>
+          <FieldType>ftBool</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_NDAYS</Name>
+          <Backend>DL_NDAYS</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_WAIT</Name>
+          <Backend>DL_WAIT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_ISPAYED</Name>
+          <Backend>DL_ISPAYED</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_DAY</Name>
+          <Backend>DL_DAY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_IsDeleted</Name>
+          <Backend>DL_IsDeleted</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>DL_BLOCKED</Name>
+          <Backend>DL_BLOCKED</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>DL_KEY</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>Partners</Name>
+      <Backend>Partners</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>PR_KEY</Name>
+          <Backend>PR_KEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>pr_sortOrder</Name>
+          <Backend>pr_sortOrder</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_PGKEY</Name>
+          <Backend>PR_PGKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_Filial</Name>
+          <Backend>PR_Filial</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_CREATOR</Name>
+          <Backend>PR_CREATOR</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>ROWID</Name>
+          <Backend>ROWID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftTimeStamp</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_PrivatePerson</Name>
+          <Backend>PR_PrivatePerson</Backend>
+          <Type>Field</Type>
+          <FieldType>ftBool</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_DOGOVORTYPE</Name>
+          <Backend>PR_DOGOVORTYPE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_Deleted</Name>
+          <Backend>PR_Deleted</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_BLOCKEDFORANNUL</Name>
+          <Backend>PR_BLOCKEDFORANNUL</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_WEBAGENT</Name>
+          <Backend>PR_WEBAGENT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_ART</Name>
+          <Backend>PR_ART</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_USERLAST</Name>
+          <Backend>PR_USERLAST</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_CTKEY</Name>
+          <Backend>PR_CTKEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_OWNER</Name>
+          <Backend>PR_OWNER</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_ExchangeData</Name>
+          <Backend>PR_ExchangeData</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_CITY</Name>
+          <Backend>PR_CITY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_AGENTDOGOVOR2</Name>
+          <Backend>PR_AGENTDOGOVOR2</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_AGENTDOGOVOR</Name>
+          <Backend>PR_AGENTDOGOVOR</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_MAINMEN</Name>
+          <Backend>PR_MAINMEN</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_MAINMENPHONE</Name>
+          <Backend>PR_MAINMENPHONE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_FAX1</Name>
+          <Backend>PR_FAX1</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_REMARK</Name>
+          <Backend>PR_REMARK</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_COD</Name>
+          <Backend>PR_COD</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_ExchangePwd</Name>
+          <Backend>PR_ExchangePwd</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_GUID</Name>
+          <Backend>PR_GUID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_ICQ</Name>
+          <Backend>PR_ICQ</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_GDS_PREFIX</Name>
+          <Backend>PR_GDS_PREFIX</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_GDS_SUFFIX</Name>
+          <Backend>PR_GDS_SUFFIX</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_LICENSENUMBER</Name>
+          <Backend>PR_LICENSENUMBER</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_ADDITIONALINFO</Name>
+          <Backend>PR_ADDITIONALINFO</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_LEGALADDRESS</Name>
+          <Backend>PR_LEGALADDRESS</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_INN</Name>
+          <Backend>PR_INN</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_FOREIGNACCINFO</Name>
+          <Backend>PR_FOREIGNACCINFO</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_KPP</Name>
+          <Backend>PR_KPP</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_CODEOKONH</Name>
+          <Backend>PR_CODEOKONH</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_CODEOKPO</Name>
+          <Backend>PR_CODEOKPO</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_HOMEPAGE</Name>
+          <Backend>PR_HOMEPAGE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_ACCOUNT</Name>
+          <Backend>PR_ACCOUNT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_ADRESS</Name>
+          <Backend>PR_ADRESS</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_PHONES</Name>
+          <Backend>PR_PHONES</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_FAX</Name>
+          <Backend>PR_FAX</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_EMAIL</Name>
+          <Backend>PR_EMAIL</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_FULLNAME</Name>
+          <Backend>PR_FULLNAME</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_NAME</Name>
+          <Backend>PR_NAME</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_NAMEENG</Name>
+          <Backend>PR_NAMEENG</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_BOSSNAME</Name>
+          <Backend>PR_BOSSNAME</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_BOSS</Name>
+          <Backend>PR_BOSS</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_IPAddress</Name>
+          <Backend>PR_IPAddress</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_POSTINDEX</Name>
+          <Backend>PR_POSTINDEX</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_LEGALPOSTINDEX</Name>
+          <Backend>PR_LEGALPOSTINDEX</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_RegisterSeries</Name>
+          <Backend>PR_RegisterSeries</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_RegisterNumber</Name>
+          <Backend>PR_RegisterNumber</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_WebServiceUrl</Name>
+          <Backend>PR_WebServiceUrl</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_TYPE</Name>
+          <Backend>PR_TYPE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftLong</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_DISCOUNT</Name>
+          <Backend>PR_DISCOUNT</Backend>
+          <Type>Field</Type>
+          <FieldType>ftFloat</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_AGENTDATE2</Name>
+          <Backend>PR_AGENTDATE2</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_CREATEDATE</Name>
+          <Backend>PR_CREATEDATE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_UPDATEDATE</Name>
+          <Backend>PR_UPDATEDATE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_AGENTDATE</Name>
+          <Backend>PR_AGENTDATE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_DateLastContact</Name>
+          <Backend>PR_DateLastContact</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PR_MALE</Name>
+          <Backend>PR_MALE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>PR_KEY</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>Controls</Name>
+      <Backend>Controls</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>CR_NAME</Name>
+          <Backend>CR_NAME</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CR_KEY</Name>
+          <Backend>CR_KEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CR_NameLat</Name>
+          <Backend>CR_NameLat</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>ROWID</Name>
+          <Backend>ROWID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftTimeStamp</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>CR_GlobalState</Name>
+          <Backend>CR_GlobalState</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>CR_KEY</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>Order_Status</Name>
+      <Backend>Order_Status</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>OS_NAME_RUS</Name>
+          <Backend>OS_NAME_RUS</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>OS_CODE</Name>
+          <Backend>OS_CODE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>OS_GLOBAL</Name>
+          <Backend>OS_GLOBAL</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>OS_NameLat</Name>
+          <Backend>OS_NameLat</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>ROWID</Name>
+          <Backend>ROWID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftTimeStamp</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>OS_CODE</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>AllHotelOption</Name>
+      <Backend>AllHotelOption</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>AO_KEY</Name>
+          <Backend>AO_KEY</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>ROWID</Name>
+          <Backend>ROWID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftTimeStamp</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>AO_NAME</Name>
+          <Backend>AO_NAME</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>AO_ParentKey</Name>
+          <Backend>AO_ParentKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>AO_WEBIMAGE</Name>
+          <Backend>AO_WEBIMAGE</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>AO_NameLat</Name>
+          <Backend>AO_NameLat</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>AO_BUTTON</Name>
+          <Backend>AO_BUTTON</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>AO_BUTTONPUSH</Name>
+          <Backend>AO_BUTTONPUSH</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>AO_KEY</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>HotelOptionImages</Name>
+      <Backend>HotelOptionImages</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>HOI_Id</Name>
+          <Backend>HOI_Id</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HOI_HOId</Name>
+          <Backend>HOI_HOId</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HOI_FileName</Name>
+          <Backend>HOI_FileName</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>HOI_Comment</Name>
+          <Backend>HOI_Comment</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>HOI_Id</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>CategoriesOfHotel</Name>
+      <Backend>CategoriesOfHotel</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>COH_Id</Name>
+          <Backend>COH_Id</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>COH_Name</Name>
+          <Backend>COH_Name</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>COH_PrintNum</Name>
+          <Backend>COH_PrintNum</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>COH_NameLat</Name>
+          <Backend>COH_NameLat</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>COH_GlobalCode</Name>
+          <Backend>COH_GlobalCode</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>COH_Description</Name>
+          <Backend>COH_Description</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>COH_Id</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>ServiceByDate</Name>
+      <Backend>ServiceByDate</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>SD_DLKey</Name>
+          <Backend>SD_DLKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>SD_ID</Name>
+          <Backend>SD_ID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>SD_Date</Name>
+          <Backend>SD_Date</Backend>
+          <Type>Field</Type>
+          <FieldType>ftDateTime</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>SD_QPID</Name>
+          <Backend>SD_QPID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>SD_TUKey</Name>
+          <Backend>SD_TUKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>SD_RPID</Name>
+          <Backend>SD_RPID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>SD_QPIDOld</Name>
+          <Backend>SD_QPIDOld</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>SD_RLID</Name>
+          <Backend>SD_RLID</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>SD_State</Name>
+          <Backend>SD_State</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt16</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>SD_ID</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>PrtTypes</Name>
+      <Backend>PrtTypes</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>PT_Name</Name>
+          <Backend>PT_Name</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PT_Id</Name>
+          <Backend>PT_Id</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PT_NameLat</Name>
+          <Backend>PT_NameLat</Backend>
+          <Type>Field</Type>
+          <FieldType>ftString</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>PT_Id</CustomKeyName>
+    </ProtoDescription>
+    <ProtoDescription>
+      <Name>PrtTypesToPartners</Name>
+      <Backend>PrtTypesToPartners</Backend>
+      <Type>Proto</Type>
+      <SkipLoad>false</SkipLoad>
+      <Fields>
+        <FieldDescription>
+          <Name>PTP_Id</Name>
+          <Backend>PTP_Id</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PTP_PRKey</Name>
+          <Backend>PTP_PRKey</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+        <FieldDescription>
+          <Name>PTP_PTId</Name>
+          <Backend>PTP_PTId</Backend>
+          <Type>Field</Type>
+          <FieldType>ftInt</FieldType>
+          <MaxLength>0</MaxLength>
+          <GuiValidators />
+        </FieldDescription>
+      </Fields>
+      <CustomKeyName>PTP_Id</CustomKeyName>
+    </ProtoDescription>
+  </m_Protos>
+  <m_Views />
+  <m_Aggregations>
+    <AggregationDescription>
+      <Name>pt_partners</Name>
+      <Type>Aggregation</Type>
+      <ThisElementType>Proto</ThisElementType>
+      <ThisElementName>Partners</ThisElementName>
+      <ForeignElementType>Proto</ForeignElementType>
+      <ForeignElementName>PrtTypesToPartners</ForeignElementName>
+      <ForeignKey>PTP_PRKey</ForeignKey>
+    </AggregationDescription>
+    <AggregationDescription>
+      <Name>pt_types</Name>
+      <Type>Aggregation</Type>
+      <ThisElementType>Proto</ThisElementType>
+      <ThisElementName>PrtTypes</ThisElementName>
+      <ForeignElementType>Proto</ForeignElementType>
+      <ForeignElementName>PrtTypesToPartners</ForeignElementName>
+      <ForeignKey>PTP_PTId</ForeignKey>
+    </AggregationDescription>
+  </m_Aggregations>
+  <m_Compositions />
+  <m_InlineCompositions />
+  <m_Associations />
+</SimpleOperationContext>

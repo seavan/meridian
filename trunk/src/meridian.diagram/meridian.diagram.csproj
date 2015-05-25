@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ECA6F91E-A579-45E6-9FF3-FE31AE5AC6B4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>meridian.diagram</RootNamespace>
+    <AssemblyName>meridian.diagram</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\etc\packages\MySql.Data.6.7.4\lib\net40\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AggregationClassFile.cs" />
+    <Compile Include="AspxFile.cs" />
+    <Compile Include="BackendOperationContextBase.cs" />
+    <Compile Include="BasicFile.cs" />
+    <Compile Include="BasicGenerator.cs" />
+    <Compile Include="ClassFile.cs" />
+    <Compile Include="CodeFile.cs" />
+    <Compile Include="CommandExecutionInfo.cs" />
+    <Compile Include="commandExecutors\CreateAggregationCommandExecutor.cs" />
+    <Compile Include="commandExecutors\CreateAssociationCommandExecutor.cs" />
+    <Compile Include="commandExecutors\CreateCompositionCommandExecutor.cs" />
+    <Compile Include="commandExecutors\CreateInlineCompositionCommandExecutor.cs" />
+    <Compile Include="commandExecutors\CreateViewCommandExecutor.cs" />
+    <Compile Include="commandExecutors\RecreateProtosCommandExecutor.cs" />
+    <Compile Include="ControllerImplClassFile.cs" />
+    <Compile Include="CSharpWriter.cs" />
+    <Compile Include="elementDescriptions\AggregationDescription.cs" />
+    <Compile Include="elementDescriptions\AssociationDescription.cs" />
+    <Compile Include="common\Command.cs" />
+    <Compile Include="common\CommandType.cs" />
+    <Compile Include="elementDescriptions\CallableDescription.cs" />
+    <Compile Include="elementDescriptions\CompositionDescription.cs" />
+    <Compile Include="elementDescriptions\InlineCompositionDescription.cs" />
+    <Compile Include="elementDescriptions\ParameterDescription.cs" />
+    <Compile Include="elementDescriptions\StoredProcedureDescription.cs" />
+    <Compile Include="elements\Element.cs" />
+    <Compile Include="elementDescriptions\ElementDescription.cs" />
+    <Compile Include="elements\ElementType.cs" />
+    <Compile Include="elementDescriptions\EntityDescription.cs" />
+    <Compile Include="Executor.cs" />
+    <Compile Include="elementDescriptions\FieldDescription.cs" />
+    <Compile Include="common\FieldType.cs" />
+    <Compile Include="elementDescriptions\ForeignDescription.cs" />
+    <Compile Include="commandExecutors\CreateFieldCommandExecutor.cs" />
+    <Compile Include="commandExecutors\CreateProtoCommandExecutor.cs" />
+    <Compile Include="commandExecutors\DropFieldCommandExecutor.cs" />
+    <Compile Include="commandExecutors\DropProtoCommandExecutor.cs" />
+    <Compile Include="IDeleteGenerator.cs" />
+    <Compile Include="IGenerator.cs" />
+    <Compile Include="interfaces\IDiagramContext.cs" />
+    <Compile Include="interfaces\IExecutor.cs" />
+    <Compile Include="interfaces\IBackendOperationContext.cs" />
+    <Compile Include="interfaces\ICommandExecutor.cs" />
+    <Compile Include="interfaces\IOperationContext.cs" />
+    <Compile Include="elementDescriptions\PrimaryDescription.cs" />
+    <Compile Include="common\Naming.cs" />
+    <Compile Include="ISelectGenerator.cs" />
+    <Compile Include="IUpdateGenerator.cs" />
+    <Compile Include="LoaderClassFile.cs" />
+    <Compile Include="MetaClassFile.cs" />
+    <Compile Include="MsSqlBackendOperationContext.cs" />
+    <Compile Include="MySqlBackendOperationContext.cs" />
+    <Compile Include="MySqlDiagramContext.cs" />
+    <Compile Include="MySqlFieldMapper.cs" />
+    <Compile Include="PathUtils.cs" />
+    <Compile Include="ProtoClassFile.cs" />
+    <Compile Include="ProtoStoreClassFile.cs" />
+    <Compile Include="SqlFieldMapper.cs" />
+    <Compile Include="SqlFieldMirror.cs" />
+    <Compile Include="SqlTableMirror.cs" />
+    <Compile Include="SqlTableMirrorList.cs" />
+    <Compile Include="MsSqlDiagramContext.cs" />
+    <Compile Include="MultiValueDictionary.cs" />
+    <Compile Include="Parser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="elementDescriptions\ProtoDescription.cs" />
+    <Compile Include="elementDescriptions\SetDescription.cs" />
+    <Compile Include="SimpleDiagramContext.cs" />
+    <Compile Include="SimpleExecutor.cs" />
+    <Compile Include="elementDescriptions\ViewDescription.cs" />
+    <Compile Include="SimpleOperationContext.cs" />
+    <Compile Include="MysqlGenerator.cs" />
+    <Compile Include="SyntaxElement.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="command\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\meridian.core\meridian.core.csproj">
+      <Project>{73328140-C27E-48B7-A700-708B1D7BD049}</Project>
+      <Name>meridian.core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
